@@ -24,7 +24,7 @@
 }
 
 .programacao {
-    background-image: linear-gradient(#212c68,#0375d1);
+    background-image: linear-gradient(#212c68,#969696);
     color: white;
     display:flex;
     justify-content:center;
@@ -34,6 +34,10 @@
 
 .programacao-titulo {
     padding: 24px 0;
+}
+
+.programacao-texto {
+    padding: 6px 0;
 }
 
 .programacao-imagem {
