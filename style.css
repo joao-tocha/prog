@@ -1,15 +1,16 @@
-* {
+* { /* Define para todo documento HTML as propriedades */
     justify-content: space-around;
-    margin: 0;
-    padding: 0;
+    margin: 0 16px;
+    padding: 24px 0;
+    font-size: 24px;
 }
 
-header {
+header { /* Define para a TAG HEADER as propriedades */
     background-color: #383D58;
     color: white;
 }
 
-.cabecalho {
+.cabecalho { /* Define para a CLASS CABECALHO as propriedades */
     background-color: #383D58;
     color: white;
     display:flex;
@@ -20,12 +21,18 @@ header {
     width: 10%;
 }
 
-body {
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 48px;
+}
+
+body { /* Define para a TAG BODY as propriedades */
     background-color: #383D58;
     color: white;
 }
 
-footer {
+footer { /* Define para a TAG FOOTER as propriedades */
     background-color: #383D58;
     color: white;
 }
