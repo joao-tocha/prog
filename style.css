@@ -1,16 +1,19 @@
-* { /* Define para todo documento HTML as propriedades */
+/* Define para todo documento HTML as propriedades */
+* { 
     justify-content: space-around;
-    margin: 0 16px;
+    margin: 0 16px 0 0;
     padding: 24px 0;
     font-size: 24px;
 }
 
-header { /* Define para a TAG HEADER as propriedades */
+/* Define para a TAG HEADER as propriedades */
+header { 
     background-color: #383D58;
     color: white;
 }
 
-.cabecalho { /* Define para a CLASS CABECALHO as propriedades */
+/* Define para a CLASS CABECALHO as propriedades */
+.cabecalho { 
     background-color: #383D58;
     color: white;
     display:flex;
@@ -18,7 +21,7 @@ header { /* Define para a TAG HEADER as propriedades */
 }
 
 .cabecalho-imagem{
-    width: 10%;
+    width: 20%;
 }
 
 .cabecalho-lista-item{
@@ -27,12 +30,14 @@ header { /* Define para a TAG HEADER as propriedades */
     font-size: 48px;
 }
 
-body { /* Define para a TAG BODY as propriedades */
+/* Define para a TAG BODY as propriedades */
+body { 
     background-color: #383D58;
     color: white;
 }
 
-footer { /* Define para a TAG FOOTER as propriedades */
+/* Define para a TAG BODY as propriedades */
+footer { 
     background-color: #383D58;
     color: white;
 }
