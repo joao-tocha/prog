@@ -4,40 +4,42 @@
     padding: 0;
 }
 
-/* Define para a TAG HEADER as propriedades */
-header { 
-    background-color: #383D58;
-    color: white;
-}
-
 /* Define para a CLASS CABECALHO as propriedades */
 .cabecalho { 
-    background-color: #383D58;
+    background-color: #212c68;
     color: white;
     display:flex;
     justify-content: space-around;
-    padding: 24px 0;
 }
 
 .cabecalho-imagem{
-    width: 20%;
+    width: 25%;
 }
 
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 32px;
     padding: 48px 0;
-    font-size: 48px;
+    font-size: 32px;
 }
 
-/* Define para a TAG BODY as propriedades */
-body { 
-    background-color: #383D58;
+.programacao {
+    background-image: linear-gradient(#212c68,#0375d1);
     color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
 
-/* Define para a TAG BODY as propriedades */
-footer { 
-    background-color: #383D58;
-    color: white;
+.programacao-titulo {
+    padding: 24px 0;
+}
+
+.programacao-imagem {
+    width: 30%;
+}
+
+.programacao-conteudo {
+    width: 50%;
 }
