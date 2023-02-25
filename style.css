@@ -1,6 +1,23 @@
+* {
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     background-color: #383D58;
     color: white;
+}
+
+.cabecalho {
+    background-color: #383D58;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+}
+
+.cabecalho-imagem{
+    width: 10%;
 }
 
 body {
