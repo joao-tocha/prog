@@ -73,20 +73,27 @@ body {
 
 .aula-grid {
     display:grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 33% 34% 33%;
 }
 
 .aula-imagem{
     width: 50%;
 }
 
-.aula-div {
+.aula-div{
     text-align: center;
-    padding-bottom: 32px;
+    padding: 32px ;
+}
+
+.aula-list-div{
+    text-align: left;
+    padding: 0px 64px;
 }
 
 .aula-icone{
+    vertical-align: middle;
     width:32px;
+    padding: 16px;
 }
 
 .ferramenta {
